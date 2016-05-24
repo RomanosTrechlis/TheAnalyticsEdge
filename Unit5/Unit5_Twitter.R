@@ -1,5 +1,5 @@
 # Unit 5 - Twitter
-setwd("C:\\Users\\xa86\\Desktop\\Unit5")
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit5")
 
 # VIDEO 5
 

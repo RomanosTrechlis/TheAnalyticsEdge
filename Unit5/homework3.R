@@ -1,4 +1,4 @@
-setwd("C:\\Users\\xa86\\Desktop\\Unit5")
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit5")
 
 # Problem 1.1 - Loading the Data
 emails = read.csv("emails.csv", stringsAsFactors=FALSE)

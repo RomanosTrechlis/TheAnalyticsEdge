@@ -1,4 +1,4 @@
-setwd("C:\\Users\\xa86\\Desktop\\Unit5")
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit5")
 
 # Problem 1.1 - Bags of Words
 wiki = read.csv("wiki.csv", stringsAsFactors=FALSE)
