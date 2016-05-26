@@ -1,9 +1,10 @@
 # Unit 3, Recitation
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit3 - Logistic Regression")
 
 # Video 2
 
 # Read in data
-polling = read.csv("PollingData.csv")
+polling = read.csv("data\\PollingData.csv")
 str(polling)
 table(polling$Year)
 summary(polling)

@@ -1,8 +1,8 @@
-setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit2")
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit2 - Linear Regression")
 
 # Climate Change
 # ==============
-climate = read.csv("climate_change.csv")
+climate = read.csv("data\\climate_change.csv")
 summary(climate)
 str(climate)
 
@@ -35,8 +35,8 @@ R2 = 1 - SSE/SST
 ls()
 rm(climate, model1, model2, prediction, R2, SSE, SST, stepModel, test, train)
 
-train = read.csv("pisa2009train.csv")
-test = read.csv("pisa2009test.csv")
+train = read.csv("data\\pisa2009train.csv")
+test = read.csv("data\\pisa2009test.csv")
 
 str(train)
 summary(train)
@@ -66,7 +66,7 @@ rmse_test = sqrt(SSE/nrow(test))
 # ======================================================
 ls()
 rm(test, train, R2, lmScore, predTest, rmse_test, rmse_train, SSE, SST)
-fluTrain = read.csv("FluTrain.csv")
+fluTrain = read.csv("data\\FluTrain.csv")
 hist(fluTrain$ILI)
 plot(log(fluTrain$ILI), fluTrain$Queries)
 
@@ -75,7 +75,7 @@ summary(FluTrend)
 
 R2 = cor(log(fluTrain$ILI), fluTrain$Queries)^2
 
-fluTest = read.csv("FluTest.csv")
+fluTest = read.csv("data\\FluTest.csv")
 
 PredTest1 = predict(FluTrend, newdata=fluTest)
 

@@ -1,5 +1,6 @@
-setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit4")
-letters = read.csv("letters_ABPR.csv")
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit4 - Trees")
+
+letters = read.csv("data\\letters_ABPR.csv")
 
 # Problem 1.1 - Predicting B or not B
 letters$isB = as.factor(letters$letter == "B")

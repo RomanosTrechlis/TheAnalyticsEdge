@@ -1,11 +1,11 @@
 # Unit 4 - "Judge, Jury, and Classifier" Lecture
-setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit4")
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit4 - Trees")
 
 
 # VIDEO 4
 
 # Read in the data
-stevens = read.csv("stevens.csv")
+stevens = read.csv("data\\stevens.csv")
 str(stevens)
 
 # Split the data

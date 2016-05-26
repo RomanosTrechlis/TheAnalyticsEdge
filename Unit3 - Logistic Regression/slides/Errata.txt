@@ -1,0 +1,3 @@
+Slide 2 states that the candidate with the most votes in a state gets all its electoral votes. While this winner-take-all system is used in most states, there are a few exceptions in which electoral votes are split according to individual voting totals.
+
+Slide 2 incorrectly states that the "candidate with the most electoral votes wins the election". In fact, a candidate needs at least 270 electoral votes (a majority of the 538 available votes) to win the presidential election. If more than two candidates receive electoral votes, it is possible that the candidate with the most electoral votes could fall short of a majority and there would be no winner.

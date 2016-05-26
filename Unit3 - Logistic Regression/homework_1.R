@@ -1,4 +1,6 @@
-songs = read.csv("songs.csv")
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit3 - Logistic Regression")
+
+songs = read.csv("data\\songs.csv")
 
 # Understanding the data
 str(songs)

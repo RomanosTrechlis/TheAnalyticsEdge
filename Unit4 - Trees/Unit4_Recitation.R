@@ -1,10 +1,10 @@
 # Unit 4, Recitation
-
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit4 - Trees")
 
 # VIDEO 2
 
 # Read in data
-boston = read.csv("boston.csv")
+boston = read.csv("data\\boston.csv")
 str(boston)
 
 # Plot observations

@@ -1,7 +1,7 @@
-setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit5")
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit5 - Text Analytics")
 
 # Problem 1.1 - Bags of Words
-wiki = read.csv("wiki.csv", stringsAsFactors=FALSE)
+wiki = read.csv("data\\wiki.csv", stringsAsFactors=FALSE)
 wiki$Vandal = as.factor(wiki$Vandal)
 table(wiki$Vandal)
 

@@ -1,5 +1,6 @@
 # Loading the Dataset
-data = read.csv("parole.csv")
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit3 - Logistic Regression")
+data = read.csv("data\\parole.csv")
 str(data)
 table(data$violator)
 table(data$multiple.offenses)

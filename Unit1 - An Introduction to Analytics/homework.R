@@ -1,5 +1,6 @@
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit1 - An Introduction to Analytics")
 # Motor Vehicles 
-DATA = read.csv("mvtWeek1.csv")
+DATA = read.csv("data\\mvtWeek1.csv")
 table(DATA$Arrest)
 max(DATA$ID)
 min(DATA$Beat)
@@ -22,11 +23,11 @@ Top5$LocationDescription = factor(Top5$LocationDescription)
 
 
 # Stocks
-IBM = read.csv("IBMStock.csv")
-GE = read.csv("GEStock.csv")
-CocaCola = read.csv("CocaColaStock.csv")
-ProcterGamble = read.csv("ProcterGambleStock.csv")
-Boeing = read.csv("BoeingStock.csv")
+IBM = read.csv("data\\IBMStock.csv")
+GE = read.csv("data\\GEStock.csv")
+CocaCola = read.csv("data\\CocaColaStock.csv")
+ProcterGamble = read.csv("data\\ProcterGambleStock.csv")
+Boeing = read.csv("data\\BoeingStock.csv")
 
 IBM$Date = as.Date(IBM$Date, "%m/%d/%y")
 GE$Date = as.Date(GE$Date, "%m/%d/%y")
@@ -60,7 +61,7 @@ tapply(GE$StockPrice, months(GE$Date), mean)
 
 
 # Demographics and Employment
-CPS = read.csv("CPSData.csv")
+CPS = read.csv("data\\CPSData.csv")
 summary(CPS$Industry)
 sort(table(CPS$State))
 tapply(CPS$Race, CPS$Hispanic, table)
@@ -71,8 +72,8 @@ table(CPS$State, is.na(CPS$MetroAreaCode))
 tapply(is.na(CPS$MetroAreaCode), CPS$State, mean)
 sort(tapply(is.na(CPS$MetroAreaCode), CPS$State, mean))
 
-MetroAreaMap = read.csv("MetroAreaCodes.csv")
-CountryMap = read.csv("CountryCodes.csv")
+MetroAreaMap = read.csv("data\\MetroAreaCodes.csv")
+CountryMap = read.csv("data\\CountryCodes.csv")
 CPS = merge(CPS, MetroAreaMap, by.x="MetroAreaCode", by.y="Code", all.x=TRUE)
 sort(tapply(CPS$Hispanic, CPS$MetroArea, mean))
 sort(tapply(CPS$Race == "Asian", CPS$MetroArea, mean))
@@ -86,7 +87,7 @@ sort(tapply(CPS$Country == "Brazil", CPS$MetroArea, sum, na.rm=TRUE))
 
 
 # Optional HW
-POLL = read.csv("AnonymityPoll.csv")
+POLL = read.csv("data\\AnonymityPoll.csv")
 table(POLL$Sex, POLL$Region)
 table(POLL$State, POLL$Region)
 table(POLL$Internet, POLL$Smartphone)

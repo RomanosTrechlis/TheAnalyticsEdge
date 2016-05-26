@@ -1,11 +1,11 @@
 # Unit 5 - Twitter
-setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit5")
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit5 - Text Analytics")
 
 # VIDEO 5
 
 # Read in the data
 Sys.setlocale("LC_ALL", "C")
-tweets = read.csv("tweets.csv", stringsAsFactors=FALSE)
+tweets = read.csv("data\\tweets.csv", stringsAsFactors=FALSE)
 
 str(tweets)
 

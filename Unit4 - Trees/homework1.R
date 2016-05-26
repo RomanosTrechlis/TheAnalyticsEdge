@@ -1,5 +1,6 @@
-setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit4")
-gerber = read.csv("gerber.csv")
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit4 - Trees")
+
+gerber = read.csv("data\\gerber.csv")
 
 # Problem 1.1 - Exploration and Logistic Regression
 str(gerber)

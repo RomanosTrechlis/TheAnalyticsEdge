@@ -1,9 +1,9 @@
 # Unit 3, The Framingham Heart Study
-
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit3 - Logistic Regression")
 # Video 3
 
 # Read in the dataset
-framingham = read.csv("framingham.csv")
+framingham = read.csv("data\\framingham.csv")
 
 # Look at structure
 str(framingham)

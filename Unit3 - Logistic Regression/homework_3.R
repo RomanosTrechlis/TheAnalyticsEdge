@@ -1,5 +1,6 @@
 # Preparing the Dataset
-loans = read.csv("loans.csv")
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit3 - Logistic Regression")
+loans = read.csv("data\\loans.csv")
 str(loans)
 table(loans$not.fully.paid)
 1533/(1533+8045)

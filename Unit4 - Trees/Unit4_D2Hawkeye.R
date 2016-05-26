@@ -1,10 +1,10 @@
 # Unit 4 - "Keeping an Eye on Healthcare Costs" Lecture
-
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit4 - Trees")
 
 # VIDEO 6
 
 # Read in the data
-Claims = read.csv("ClaimsData.csv")
+Claims = read.csv("data\\ClaimsData.csv")
 
 str(Claims)
 

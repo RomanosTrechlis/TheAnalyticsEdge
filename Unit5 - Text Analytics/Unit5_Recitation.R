@@ -1,11 +1,11 @@
 # Unit 5 - Recitation
-
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit5 - Text Analytics")
 
 # Video 2
 
 # Load the dataset
 
-emails = read.csv("energy_bids.csv", stringsAsFactors=FALSE)
+emails = read.csv("data\\energy_bids.csv", stringsAsFactors=FALSE)
 
 str(emails)
 

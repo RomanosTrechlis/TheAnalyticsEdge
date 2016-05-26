@@ -1,8 +1,5 @@
-MAINPATH = "C:\\Users\\Romanos\\Projects\\rworkspace\\"
-SUBPATH = "TheAnalyticsEdge\\"
-
-setwd(MAINPATH + SUBPATH + "Unit1")
-WHO = read.csv("WHO.csv")
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit1 - An Introduction to Analytics")
+WHO = read.csv("data\\WHO.csv")
 str(WHO)
 summary(WHO)
 WHO_Europe = subset(WHO, Region == "Europe")

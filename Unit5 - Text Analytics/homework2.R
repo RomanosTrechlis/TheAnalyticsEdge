@@ -1,7 +1,7 @@
-setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit5")
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit5 - Text Analytics")
 
 # Problem 1.1 - Loading the Data
-trials = read.csv("clinical_trial.csv", stringsAsFactors=FALSE)
+trials = read.csv("data\\clinical_trial.csv", stringsAsFactors=FALSE)
 max(nchar(trials$abstract))
 
 # Problem 1.2 - Loading the Data

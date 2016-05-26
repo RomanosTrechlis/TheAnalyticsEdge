@@ -1,10 +1,10 @@
 # Unit 3, Modeling the Expert
-
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit3 - Logistic Regression")
 
 # Video 4
 
 # Read in dataset
-quality = read.csv("quality.csv")
+quality = read.csv("data\\quality.csv")
 
 # Look at structure
 str(quality)

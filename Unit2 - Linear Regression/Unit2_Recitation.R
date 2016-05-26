@@ -1,7 +1,8 @@
 # VIDEO 1
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit2 - Linear Regression")
 
 # Read in the data
-NBA = read.csv("NBA_train.csv")
+NBA = read.csv("data\\NBA_train.csv")
 str(NBA)
 
 
@@ -63,7 +64,7 @@ RMSE_4
 # VIDEO 4
 
 # Read in test set
-NBA_test = read.csv("NBA_test.csv")
+NBA_test = read.csv("data\\NBA_test.csv")
 
 # Make predictions on test set
 PointsPredictions = predict(PointsReg4, newdata=NBA_test)

@@ -1,7 +1,7 @@
-setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit5")
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit5 - Text Analytics")
 
 # Problem 1.1 - Loading the Data
-emails = read.csv("emails.csv", stringsAsFactors=FALSE)
+emails = read.csv("data\\emails.csv", stringsAsFactors=FALSE)
 nrow(emails)
 
 # Problem 1.2 - Loading the Dataset

@@ -1,7 +1,8 @@
 # VIDEO 4
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit2 - Linear Regression")
 
 # Read in data
-wine = read.csv("wine.csv")
+wine = read.csv("data\\wine.csv")
 str(wine)
 summary(wine)
 
@@ -53,7 +54,7 @@ summary(model5)
 # VIDEO 7
 
 # Read in test set
-wineTest = read.csv("wine_test.csv")
+wineTest = read.csv("data\\wine_test.csv")
 str(wineTest)
 
 # Make test set predictions

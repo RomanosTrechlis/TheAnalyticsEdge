@@ -1,5 +1,6 @@
-setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit4")
-census = read.csv("census.csv")
+setwd("C:\\Users\\Romanos\\Projects\\rworkspace\\TheAnalyticsEdge\\Unit4 - Trees")
+
+census = read.csv("data\\census.csv")
 
 # Problem 1.1 - A Logistic Regression Model
 library(caTools)
